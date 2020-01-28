@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	word-wrap: break-word;
+}
+
+.noteField {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #00ffeb;
+	position: relative;
+	padding: 20px;
+}
+
+.btnPlus {
+	width: 40px;
+	height: 40px;
+	outline: none;
+	text-align: center;
+	background-color: #00ffeb;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.note {
+	width: 150px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	position: absolute;
+	cursor: move;
+}
+
+textarea {
+	width: 130px;
+	height: 150px;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+	outline: none;
+	-moz-appearance: none;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 16px;
+}
+
+.save {
+  	width: 35px;
+	height: 25px;
+	position: absolute;
+	right: 50px;
+	bottom: 5px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: content-box;
+}
+
+.delete {
+  	width: 35px;
+	height: 25px;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: content-box;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.delete:hover,
+.save:hover {
+	outline: 1px solid #666;
+}
+
+
